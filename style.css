@@ -1,0 +1,73 @@
+.slider {
+    width: 985px;
+    height: 435px;
+    position: relative;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.button-arrow {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border-color: #F1CDB3;
+    margin-top: 192px;
+    background-color: #F6F6F6;
+}
+.wrapper-btns-arrow {
+}
+.active, .button-arrow:hover {
+    background-color: #fddcc4;
+}
+.wrapper-card {
+    width: 991px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 270px;
+    height: 435px;
+    text-align: center;
+    background: #fafafa;
+    cursor: pointer;
+    transition: 500ms linear;
+}
+.active, .card:hover {
+    background-color: #ffffff;
+    transform: scale(1.1);
+}
+.pets-image {
+    width: 270px;
+    height: 270px;
+    background: none;
+    }    
+.active, .pets-image:hover {
+    background-color: #ffffff;
+}
+.name {
+    font-size: 20px;
+    color: #545454;
+    font-family: 'Georgia', 'Charcoal CY', 'Nymbus Roman No9 L', serif;
+    line-height: 22.72px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.button-pets {
+    width: 187px;
+    height: 52px;
+    border-radius: 25px;
+    background-color: #fff;
+    font-size: 17px;
+    font-family: 'Georgia', 'Charcoal CY', 'Nymbus Roman No9 L', serif;
+    font-weight: 400;
+    border-color: #fddcc4;
+}
+.active, .button-pets:hover {
+    background-color: #fddcc4;
+}
+.container-card {
+    display: flex;
+    column-gap: 90px;
+}
